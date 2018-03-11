@@ -1,0 +1,3 @@
+is - 6
+quick - 4
+fault - 2
