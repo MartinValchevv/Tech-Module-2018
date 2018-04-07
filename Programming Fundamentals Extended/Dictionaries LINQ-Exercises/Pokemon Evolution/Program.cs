@@ -10,12 +10,12 @@ namespace Pokemon_Evolution
     {
         static void Main(string[] args)
         {
-            string[] input = Console.ReadLine().Split(new[] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            string[] input = Console.ReadLine().Split(new char [] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
             string name;
             string type;
             int index = 0;
             Dictionary<string, List<string>> pokemons = new Dictionary<string, List<string>>();
-            while (input[0] == "wubbalubbadubdub")
+            while (input[0] != "wubbalubbadubdub")
             {
                 if (input.Length > 1)
                 {
@@ -46,12 +46,12 @@ namespace Pokemon_Evolution
                         }
                     }
                 }
-                input = Console.ReadLine().Split(new[] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                input = Console.ReadLine().Split(new char [] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
             }
             foreach (var pair in pokemons)
             {
                 Console.WriteLine($"# {pair.Key}");
-                foreach (var ev in pair.Value.OrderByDescending(x=>int.Parse(x.Split(new[] { ' ', '-', '<', '>' },StringSplitOptions.RemoveEmptyEntries).Last())))
+                foreach (var ev in pair.Value.OrderByDescending(x=>int.Parse(x.Split(new char [] { ' ', '-', '<', '>' },StringSplitOptions.RemoveEmptyEntries).Last())))
                 {
                     Console.WriteLine(ev);
                 }
