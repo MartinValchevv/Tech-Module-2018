@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{660C95E4-B36B-4D60-93A7-688FEEBDCC36}</ProjectGuid>
+    <ProjectGuid>{097D947E-E9DB-46F3-AD6F-D685C4460068}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Fold_and_Sum</RootNamespace>
-    <AssemblyName>Fold and Sum</AssemblyName>
+    <RootNamespace>Trainlands</RootNamespace>
+    <AssemblyName>Trainlands</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

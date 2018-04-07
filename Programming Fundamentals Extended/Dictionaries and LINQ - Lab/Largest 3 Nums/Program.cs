@@ -12,12 +12,6 @@ namespace Largest_3_Nums
         {
             List<int> nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList().OrderByDescending(x => x).Take(3).ToList();
             Console.WriteLine(string.Join(" ", nums));
-
-            
-
-
-
-
         }
     }
 }

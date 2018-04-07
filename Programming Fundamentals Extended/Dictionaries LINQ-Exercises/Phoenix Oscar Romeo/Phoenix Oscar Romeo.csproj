@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{660C95E4-B36B-4D60-93A7-688FEEBDCC36}</ProjectGuid>
+    <ProjectGuid>{E4EEAB19-7EDD-411C-94E5-7D414CCF1890}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Fold_and_Sum</RootNamespace>
-    <AssemblyName>Fold and Sum</AssemblyName>
+    <RootNamespace>Phoenix_Oscar_Romeo</RootNamespace>
+    <AssemblyName>Phoenix Oscar Romeo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
