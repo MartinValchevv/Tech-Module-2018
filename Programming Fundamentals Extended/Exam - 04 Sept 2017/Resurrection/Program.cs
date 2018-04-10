@@ -12,8 +12,6 @@ namespace Resurrection
         static void Main(string[] args)
         {
             int phoenixes = int.Parse(Console.ReadLine());
-           
-          
 
             for (int i = 0; i < phoenixes; i++)
             {
@@ -22,9 +20,7 @@ namespace Resurrection
                 long lengthOf1Wing = long.Parse(Console.ReadLine());
                 decimal totalYears = (lenght * lenght) * ( width + (2 * lengthOf1Wing));
                 Console.WriteLine(totalYears);
-               
-            }
-           
+            }  
         }
     }
 }
