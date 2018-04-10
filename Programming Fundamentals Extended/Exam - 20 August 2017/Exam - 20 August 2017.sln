@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainers", "Trainers\Traine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entertrain", "Entertrain\Entertrain.csproj", "{6BD98051-EB58-4162-B9A2-4BB3D3F144DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainegram", "Trainegram\Trainegram.csproj", "{F9BC53E9-BB08-4861-B97B-D69A0F8FA4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainlands", "Trainlands\Trainlands.csproj", "{CB8A4E5A-249C-4E17-AE2C-2A6E17839AEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6BD98051-EB58-4162-B9A2-4BB3D3F144DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD98051-EB58-4162-B9A2-4BB3D3F144DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD98051-EB58-4162-B9A2-4BB3D3F144DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BC53E9-BB08-4861-B97B-D69A0F8FA4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BC53E9-BB08-4861-B97B-D69A0F8FA4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BC53E9-BB08-4861-B97B-D69A0F8FA4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BC53E9-BB08-4861-B97B-D69A0F8FA4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8A4E5A-249C-4E17-AE2C-2A6E17839AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8A4E5A-249C-4E17-AE2C-2A6E17839AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8A4E5A-249C-4E17-AE2C-2A6E17839AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8A4E5A-249C-4E17-AE2C-2A6E17839AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
