@@ -7,7 +7,7 @@
     <ProjectGuid>{A1C0FD85-F0C6-4AA8-B762-AB6E3001B8B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Roli_The_Coder</RootNamespace>
-    <AssemblyName>Roli_The_Coder</AssemblyName>
+    <AssemblyName>Roli The Coder</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
